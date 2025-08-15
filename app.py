@@ -151,8 +151,8 @@ with col6:
     st.subheader("Behavior & History")
     interest_rate = st.number_input("Interest Rate (%)", value=6, step=1)
     changed_credit_limit = st.text_input("Changed Credit Limit", "5000.0")
-    st.text_input("Credit Mix (Not Used by Model)", "Good", disabled=True)
-    st.text_input("Payment Behaviour (Not Used by Model)", "High_spent_Small_value_payments", disabled=True)
+    #st.text_input("Credit Mix (Not Used by Model)", "Good", disabled=True)
+    # st.text_input("Payment Behaviour (Not Used by Model)", "High_spent_Small_value_payments", disabled=True)
 
 
 # --- Prediction Button ---
@@ -199,3 +199,4 @@ if st.button("Predict Credit Score", type="primary", use_container_width=True):
             st.error(f"An error occurred during prediction: {e}")
     else:
         st.warning("Model could not be loaded. Please check the error messages above.")
+
