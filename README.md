@@ -99,4 +99,4 @@ Once the installation is complete and the model file is in place, you can launch
     After entering all the required data, click the "Predict Credit Score" button. The main section of the application will display:
     *   The predicted credit score (e.g., "Good", "Standard", or "Poor").
     *   A bar chart illustrating the model's confidence (probability) for each credit score category.
-link - https://credicscoreclassificationfi.streamlit.app/
+    *  use it on link - https://credicscoreclassificationfi.streamlit.app/
